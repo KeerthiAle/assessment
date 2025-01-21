@@ -1,0 +1,32 @@
+{
+    "testim": {
+        "subsections": [
+            "About",
+            "Careers",
+            "Customers",
+            "Testim Partners"
+        ],
+        "footerItems": [
+            "Terms",
+            "Privacy",
+            "Contact",
+            "FAQ"
+        ],
+        "expectedCustomerName": "John Doe",
+        "expectedReviewTitle": "Great Product!",
+        "expectedReviewContent": "This product has really helped my business grow."
+    },
+    "booking": {
+        "destination": "New York",
+        "expectedHotelName": "Hotel XYZ",
+        "expectedHotelPrice": "$100 per night"
+    },
+    "target": {
+        "searchItem": "watch",
+        "expectedDiscount": 15,
+        "expectedLogoAltText": "Target Logo"
+    },
+    "youtube": {
+        "searchQuery": "selenium tutorials"
+    }
+}

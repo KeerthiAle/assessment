@@ -1,0 +1,71 @@
+{
+  "testim": {
+    "headers": [
+      {
+        "text": "Products",
+        "locator": "//a[text()='Products']"
+      },
+      {
+        "text": "Solutions",
+        "locator": "//a[text()='Solutions']"
+      },
+      {
+        "text": "Developers",
+        "locator": "//a[text()='Developers']"
+      },
+      {
+        "text": "Company",
+        "locator": "//a[text()='Company']"
+      },
+      {
+        "text": "Resources",
+        "locator": "//a[text()='Resources']"
+      },
+      {
+        "text": "Pricing",
+        "locator": "//div[@class='nav-frame']//a[text()='Pricing']"
+      },
+      {
+        "text": "Login",
+        "locator": "//a[text()='Login']"
+      },
+      {
+        "text": "Get Testim Free",
+        "locator": "//div[@class='nav-frame']//a[text()='Get Testim Free']"
+      }
+    ],
+    "subsections": [
+      {
+        "text": "About",
+        "locator": "//span[@class='t-t' and text()='About']"
+      },
+      {
+        "text": "Careers",
+        "locator": "//span[@class='t-t' and text()='Careers']"
+      },
+      {
+        "text": "Customers",
+        "locator": "//span[@class='t-t' and text()='Customers']"
+      },
+      {
+        "text": "Testim Partners",
+        "locator": "//span[@class='t-t'  and text()='Testim Partners']"
+      }
+    ]
+  },
+  "target": {
+    "searchItem": "watches"
+  },
+  "booking": {
+    "destination": "Paris",
+    "checkInDate": "2025-05-01",
+    "checkOutDate": "2025-05-07",
+    "filters": {
+      "starRating": 4,
+      "priceRange": {
+        "min": 50,
+        "max": 500
+      }
+    }
+  }
+}
